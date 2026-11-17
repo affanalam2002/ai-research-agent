@@ -25,7 +25,7 @@ Be concise. Stop calling tools once you have enough to answer."""
 class Agent:
     client: Anthropic
     registry: ToolRegistry
-    model: str = "claude-sonnet-4-6"
+    model: str = "claude-sonnet-5-5"
     max_turns: int = 10
     console: Console = field(default_factory=Console)
     verbose: bool = False
@@ -93,7 +93,7 @@ def run(
     question: str,
     *,
     api_key: str | None = None,
-    model: str = "claude-sonnet-4-6",
+    model: str = "claude-sonnet-5-5",
     max_turns: int = 10,
     verbose: bool = False,
 ) -> str:

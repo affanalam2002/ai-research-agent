@@ -1,5 +1,7 @@
 # AI Research Agent
 
+[![CI](https://github.com/affanalam2002/ai-research-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/affanalam2002/ai-research-agent/actions/workflows/ci.yml)
+
 A terminal agent that can search the web, read articles, do math, and save notes — all orchestrated by Claude's native tool use. Ask a research question, watch it work.
 
 Built to demonstrate how to wire Claude's tool-use loop cleanly: a typed tool registry, bounded iteration, readable traces, and handling the edge cases (parallel tool calls, max turns, malformed JSON, tool errors) that break most demos.

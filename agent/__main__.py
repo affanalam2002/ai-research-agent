@@ -18,7 +18,7 @@ def main() -> int:
     parser.add_argument("question", nargs="+", help="The research question")
     parser.add_argument(
         "--model",
-        default=os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6"),
+        default=os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5"),
         help="Claude model to use",
     )
     parser.add_argument(
